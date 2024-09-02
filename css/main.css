@@ -1,0 +1,65 @@
+@import '../fonts/fonts.css';
+@import 'reset.css';
+
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background: #f2f2f2;
+}
+
+.header__title {
+    font: 500 17px / 50px "sf pro display";
+    text-align: center;
+}
+
+.main {
+    padding: 15px 0;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.main__cardImgWrap {
+    display: block;
+    height: 0;
+    position: relative;
+    padding-bottom: 58.46%;
+    margin: 0 0 10px 0;
+}
+
+.main__cardImg {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.main__cardTitle {
+    font: 700 24px / 24px "sf pro display";
+    color: #000;
+    margin: 0 0 15px 15px;
+    display: inline-block;
+    vertical-align: middle;
+}

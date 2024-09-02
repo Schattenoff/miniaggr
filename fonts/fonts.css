@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./SFProDisplay-Regular.woff2) format('woff2'),
+    url(./SFProDisplay-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./SFProDisplay-Medium.woff2) format('woff2'),
+    url(./SFProDisplay-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url(./SFProDisplay-Semibold.woff2) format('woff2'),
+    url(./SFProDisplay-Semibold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./SFProDisplay-Bold.woff2) format('woff2'),
+    url(./SFProDisplay-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url(./SFProDisplay-Black.woff2) format('woff2'),
+    url(./SFProDisplay-Black.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./SFMono-Medium.woff2) format('woff2'),
+    url(./SFMono-Medium.woff) format('woff');
+}
